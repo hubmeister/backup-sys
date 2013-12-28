@@ -77,7 +77,7 @@ if ($? > 0) { # if return code is indicates error issuing command
 }
 
 #*
-#* copy dir home directory to /data/my-system/backup/$my_year/all
+#* copy user1 home directory to /data/my-system/backup/$my_year/all
 #*
 system('cp -rp /home/user1 /data/my-system/backup/`date \'+%Y\'`/all');
 if ($? > 0) { # if return code is indicates error issuing command
