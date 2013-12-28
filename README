@@ -1,2 +1,2 @@
-This script backs up the specified /home directory, in this case /home/dirck
-It exculse large directories like VirtualBox
+This script backs up the specified /home directory, in this case /home/user1
+It excludes large directories like VirtualBox
